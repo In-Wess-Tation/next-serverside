@@ -13,7 +13,7 @@ const Albums = async () => {
 
     return ( 
         <main className="pl-2">
-            <h1 className="text-2xl">These are my favorite albums: </h1>
+            <h1 className="text-2xl font-bold">These are my favorite albums: </h1>
             <ul className="leading-9">
                 {albums.map(album => (
                     <li key={album.id}>
